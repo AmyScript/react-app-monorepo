@@ -6,10 +6,10 @@ export function App() {
   const cranstonToys = ['Feathers on a stick', 'Cardboard Box', 'Shoe Box']
   return (
     <>
-      <h1 className="title">
-        <span> Hello there, </span>
-        Welcome Cranston 👋
-      </h1>
+      <div className="header">
+        <h1 className="title"> Welcome Cranston 👋 </h1>
+        <img className="pet-pic" src={'../assets/cranston.jpeg'} alt="cranston" />
+      </div>
       <PetToys toys={cranstonToys} />
     </>
   );

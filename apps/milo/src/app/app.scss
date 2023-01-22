@@ -3,3 +3,16 @@
     width: 100%;
     justify-content: center;
 }
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pet-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: 8px solid steelblue;
+}

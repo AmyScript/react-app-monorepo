@@ -5,10 +5,10 @@ export function App() {
   const miloToys = ['Ball', 'Socks', 'Stuffed Hedgehog', 'Frisbee', 'Stuffed Dino']
   return (
     <>
-      <h1 className="title">
-        <span> Hello there, </span>
-        Welcome Milo 👋
-      </h1>
+      <div className="header">
+        <h1 className="title"> Welcome Milo 👋 </h1>
+        <img className="pet-pic" src={'../assets/milo.jpg'} alt="milo" />
+      </div>
       <PetToys toys={miloToys} />
     </>
   );
